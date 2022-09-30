@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+}
+p{color: rgb(0, 228, 0);}
+li{
+    color: rgb(0, 228, 0);
+    font-size: 25px;
+}
+ul{
+    list-style: disc;
+}
+a{color: rgb(75, 201, 255);}
+h1{
+    font-family: 'Shadows Into Light', serif;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: rgb(6, 255, 76);
+    text-align: center;
+    margin: 20px;
+}
+h2{
+    font-family: 'Shadows Into Light', serif;
+    font-size: 6ch;
+    text-shadow: 2px 2px 2px #aaa;
+    color: rgb(6, 255, 76);
+    margin:15px;
+}
+.windowsLogoOutterBox{
+    height: 260px;
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.windowsLogoInnerBox{
+    height: 120px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1.25px;
+}
+.tic_tac_toe_container{
+    display:flex;
+    flex-wrap:wrap;
+    width:300px;
+    height:300px;
+}
+.tic_tac_toe_box{
+    width:90px;
+    height:90px;
+    background-color: lightblue;
+    margin:5px;
+    list-style: none;
+    font-size: 80px; 
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+}
